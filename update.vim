@@ -146,9 +146,6 @@ function! s:update(force)
     return
   elseif l:local == l:base
     call s:system('git merge ' . l:remote)
-  elseif l:remote == l:base
-    echohl ErrorMsg | echomsg 'Local commits detected. Update aborted!' | echohl None
-    return
   endif
 
   call s:update_hook(a:force)
