@@ -183,79 +183,11 @@ Plug 'haya14busa/incsearch.vim'
 
 " Language configuration {
 " Testing {
-Plug 'janko/vim-test'
-" }
-
-" C {
-Plug 'arakashic/chromatica.nvim'
-" }
-
-" Ruby {
-Plug 'keith/rspec.vim'
-Plug 'tpope/vim-bundler', { 'for': ['ruby', 'rake'] }
-Plug 'tpope/vim-cucumber', { 'for': ['cucumber'] }
-Plug 'tpope/vim-rails', { 'for': ['ruby', 'rake'] }
-Plug 'tpope/vim-rake', { 'for': ['ruby', 'rake'] }
-" }
-
 " Python {
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 " }
-
-" Clojure {
-Plug 'tpope/vim-classpath'
-Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-Plug 'tpope/vim-salve', { 'for': 'clojure' }
-Plug 'guns/vim-sexp', { 'for': 'clojure' }
-Plug 'tpope/vim-sexp-mappings-for-regular-people', { 'for': 'clojure' }
-" }
-
 " Go {
 Plug 'fatih/vim-go'
-" }
-
-" Elixir {
-Plug 'elixir-editors/vim-elixir'
-Plug 'slashmili/alchemist.vim'
-" }
-
-" Markdown {
-Plug 'tpope/vim-markdown', { 'for': 'markdown' }
-Plug 'shime/vim-livedown', { 'for': 'markdown' }
-" }
-
-" JavaScript {
-Plug 'othree/yajs.vim'
-Plug 'othree/es.next.syntax.vim'
-Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'ternjs/tern_for_vim', {'do': 'npm install'}
-Plug 'mxw/vim-jsx'
-" }
-
-" TypeScript {
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
-" }
-
-" Vue {
-Plug 'posva/vim-vue', { 'for': 'vue' }
-" }
-
-" CSS / HTML {
-Plug 'othree/html5.vim'
-Plug 'mattn/emmet-vim'
-Plug 'cakebaker/scss-syntax.vim'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'gregsexton/MatchTag'
-Plug 'iloginow/vim-stylus'
-" }
-
-" Elm {
-Plug 'elmcast/elm-vim', { 'for': 'elm' }
-" }
-
-" Rust {
-Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 " }
 
 " Org Mode {
@@ -263,15 +195,8 @@ Plug 'jceb/vim-orgmode'
 " }
 
 " Misc {
-Plug 'PProvost/vim-ps1'
-Plug 'PotatoesMaster/i3-vim-syntax'
-Plug 'chr4/nginx.vim'
-Plug 'dag/vim-fish'
 Plug 'hashivim/vim-terraform'
-Plug 'keith/tmux.vim'
-Plug 'kurayama/systemd-vim-syntax'
-Plug 'peterhoeg/vim-qml'
-Plug 'uarun/vim-protobuf'
+Plug 'ericpruitt/tmux.vim'
 Plug 'junegunn/vader.vim'
 " }
 " }
@@ -279,31 +204,6 @@ Plug 'junegunn/vader.vim'
 " Text objects {
 " allows you to configure % to match more than just single characters
 Plug 'adelarsq/vim-matchit'
-
-" Create your own text objects
-Plug 'kana/vim-textobj-user'
-
-" Underscore text-object for Vim
-Plug 'lucapette/vim-textobj-underscore'
-
-" custom text object for selecting ruby blocks
-Plug 'nelstrom/vim-textobj-rubyblock'
-
-" A convenient text object for last pasted text
-Plug 'saaguero/vim-textobj-pastedtext'
-
-"Text objects for functions
-Plug 'kana/vim-textobj-function'
-
-" A Vim text object for ERB blocks.
-Plug 'whatyouhide/vim-textobj-erb'
-
-" Vim plugin that provides additional text objects
-Plug 'wellle/targets.vim'
-
-" Text objects for foldings
-Plug 'kana/vim-textobj-fold'
-" }
 
 " Load user plugins
 runtime! user/plug.vim
